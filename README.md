@@ -2,9 +2,10 @@
 
 ## Brython?
 Typically when writing a web application, you have to write it in javascript.
-If we want to use python instead, for this purpose, we need some way to turn our python into javascript.
+If we want to use python instead, we need some way to turn our python into javascript.
 
-That's where Brython comes along; It takes your python code, and transpiles it into javascript.
+That's where Brython comes along; It takes your python code, and turns it into javascript under the hood.
+So we can write python instead of javascript, and still have it run in the browser.
 
 ## Layout
 In this project there is an index.html file and a main.py file.
