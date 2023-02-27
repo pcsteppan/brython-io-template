@@ -1,0 +1,24 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.11.0/brython.min.js">
+	</script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.11.0/brython_stdlib.js">
+	</script>
+	<title>Simple IO with Brython</title>
+</head>
+
+<body onload="brython()">
+	<form id="main-form">
+		<input id="main-input" value="darling" />
+		<button id="main-button" type="submit">
+			Greet!
+		</button>
+	</form>
+	<div id="main-output" />
+
+	<script type="text/python" src="main.py"></script>
+</body>
+
+</html>
